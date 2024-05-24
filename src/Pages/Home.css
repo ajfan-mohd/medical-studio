@@ -1,0 +1,564 @@
+/* .nav-item + .nav-item {
+  margin-left: 80px;
+} */
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.collapse {
+  margin-left: 280px;
+}
+
+/* Additional styles for mobile view */
+@media (max-width: 992px) {
+  .collapse {
+    margin-left: 0;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+/* .navbar-nav .nav-item {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+} */
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn-enquiry {
+  margin-right: 1rem;
+  width: 150px!important;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+
+  .navbar-nav {
+    justify-content: flex-start;
+  }
+
+  .btn-enquiry {
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+  .navbar-toggler-icon{
+    width: 20px;
+    border: none;
+  }
+}
+
+.btn-enquiry {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  width: 120px;
+  border: none;
+  margin-right: 70px;
+}
+.hero-section {
+    position: relative;
+    background-image: url("../images/medium-shot-scientists-posing-together.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 700px; 
+    padding: 40px 0;
+    z-index: 1;
+  }
+  
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(79, 79, 140, 0.5); 
+    z-index: -1; 
+  }
+  .btn{
+    background-color: #323066;
+    border: none;
+    width: 80px;
+  }
+  .btn-consultation{
+    width: 180px;
+  }
+  @media (max-width: 768px) {
+    .logo{
+        width: 120px;
+        height: 60px;
+    }
+    .btn-consultation{
+        width: 160px;
+    }
+    .form-control{
+        width: 280px;
+      }
+  }
+  .first-text {
+    margin-top: 190px;
+    position: relative;
+    z-index: 2;
+  }
+  @media (max-width: 768px) {
+    .first-text{
+        margin-top: 50px;
+    }
+  }
+  .text {
+    color: white;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+ .second-text{
+    font-size: larger;
+ }
+  .text:hover {
+    color: #ffeb3b;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .paragraph {
+    transition: color 0.3s, text-shadow 0.3s; 
+  }
+  
+  .paragraph:hover {
+    color: #ffeb3b;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 0; 
+    position: relative;
+    z-index: 2;
+  }
+  
+ 
+  @media (min-width: 992px) {
+    .form-container {
+      width: 300px;
+      margin-left: 250px; 
+      margin-top: 80px; 
+    }
+  }
+  
+  .form-label {
+    color: black;
+  }
+ 
+  .custom-p-spacing {
+    padding-left: 140px;
+    padding-right: 140px; 
+  }
+  
+  .custom-p-spacing {
+    padding-left: 140px; 
+    padding-right: 140px; 
+  }
+  
+
+.about-us {
+  padding-top: 50px; 
+}
+
+.custom-p-spacing {
+  margin-top: 20px; 
+  font-size: 18px; 
+  line-height: 1.6; 
+}
+
+@media (max-width: 767px) {
+  .custom-p-spacing {
+    padding-left: 15px; 
+    padding-right: 15px; 
+    font-size: 16px; 
+    line-height: 1.5;
+    margin: 0; 
+  }
+  .textone {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-p-spacing {
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-size: 14px;
+  }
+}
+
+.imgg {
+  margin-left: 50px;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  border-radius: 30px;
+}
+
+.first-text {
+  font-size: medium;
+}
+
+@media (max-width: 767px) {
+  .imgg {
+    margin-left: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .specs {
+    padding: 20px;
+  }
+
+  .first-text {
+    font-size: 18px;
+  }
+
+  .specs p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px; 
+  }
+
+  .specs ul {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .imgg {
+    margin-left: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .specs {
+    padding: 15px;
+  }
+
+  .first-text {
+    font-size: 16px;
+  }
+
+  .specs p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px; 
+  }
+
+  .specs ul {
+    padding-left: 15px;
+  }
+}
+
+.forms{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 450px;
+    background-color: #F8F8F8;
+}
+@media (max-width: 768px) {
+    .form{
+        width: 260px;
+        
+    }
+    .form-container{
+        width: 320px;
+       margin-left: 10px;
+       margin-top: 40px;
+    }
+    .form-title{
+        font-size: small;
+    }
+}
+.form-title{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.card{
+    border-radius: 20px;
+}
+.card-img-top{
+    border-radius: 15px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+/* @media (max-width: 768px) {
+    .card{
+        width: 140px;
+    }
+ 
+} */
+.srvce {
+  background-image: url(../images/beautiful-doctor-pointing-fingers.jpg);
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+  height: 600px;
+}
+@media (max-width: 768px) {
+    .service-title{
+        font-size: 18px;
+        
+    }
+ 
+}
+.service-box{
+    border-radius: 10px;
+}
+.srvce .service {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 100, 0.5);
+  z-index: 0;
+}
+
+.service-box {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  opacity: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.highlights {
+  overflow: hidden;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.text-dark {
+  color: #000; 
+  opacity: 1; 
+  z-index: 2;
+}
+
+.text-white {
+  color: #fff; 
+  opacity: 1; 
+  z-index: 2;
+}
+
+.scton {
+  margin-top: 100px;
+}
+
+.card-img-top{
+    background-size: cover;
+}
+@media (max-width: 575.98px) {
+  .srvce {
+    height: auto; 
+  }
+
+  .service-box {
+    margin: 10px 0; 
+    width: 100%; 
+  }
+
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .highlights {
+    font-size: 32px; 
+  }
+
+  .p-4 {
+    padding: 1rem !important;
+  }
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+.testimonial {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  height: 300px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.testimonial-quote {
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.testimonial-name {
+  color: #007bff;
+  margin-top: auto;
+  font-weight: bold;
+}
+.testimonial-position {
+  color: #555;
+}
+.testimonial-stars {
+  color: gold;
+  margin-top: 10px; 
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    padding: 20px;
+  }
+  .testimonial-quote {
+    font-size: 16px;
+  }
+  .testimonial-name {
+    font-size: 14px;
+  }
+  .testimonial-position {
+    font-size: 14px;
+  }
+}
+.footer {
+    background-color: #324A82;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h5,
+.footer p,
+.footer a {
+    color: white;
+    text-align: left; /* Changed to left-align */
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer .row {
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.footer .col-md-4 {
+    padding: 0 15px; /* Adjust spacing */
+}
+
+.footer .col-md-4 p {
+    margin-bottom: 20px;
+}
+
+.footer .col-md-4:last-child {
+    border-left: 1px solid white; /* Add border between columns */
+    padding-left: 30px; /* Adjust spacing */
+}
+
+.footer .btn-primary {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.footer .btn-primary {
+    color: white;
+    background-color: #007bff;
+    border: none;
+}
+
+.footer .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.footer a {
+    color: white;
+    text-align: left; /* Changed to left-align */
+    display: block;
+}
+
+.footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social-icons i {
+    font-size: 24px;
+    margin: 0 15px;
+    color: white;
+}
+
+.footer .social-icons i:hover {
+    color: #007bff;
+}
+
+.footer .logo img {
+    width: 150px; /* Increased size */
+    height: auto;
+    margin-bottom: 10px;
+}
+.links{
+    text-decoration: none;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.btn-contact{
+    width: 130px;
+}
+.QuickLinks{
+    margin-left: 60px;
+}
+
+ @media (max-width: 768px) {
+    .display{
+     display: none;
+     
+    }
+    .para-footer{
+        font-size: 12px;
+    }
+ 
+}
